@@ -1,0 +1,7 @@
+myvar = "Hatsune Miku"
+import json
+x =  '{ "name":"Hatsune Miku", "age":17, "city":"Tokyo"}'
+y = json.loads(x)
+print(y["name"])
+print(y["city"])
+
